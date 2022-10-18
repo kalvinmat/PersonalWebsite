@@ -370,7 +370,7 @@
         rgba(0, 0, 0, 0.552) 20%,
         rgba(9, 8, 8, 0.945) 100%
     ),
-    url('/images/setup.jpg');
+    url('/images/coding.jpg');
     background-size: cover;
     position: relative;
     color: antiquewhite;
@@ -382,7 +382,7 @@
     rgba(0, 0, 0, 0.385) 20%,
     rgba(17, 17, 17, 0.88) 100%
    ),
-    url('/images/coding.jpg'); 
+    url('/images/setup.jpg'); 
 }
 
 .about_me h2 {
