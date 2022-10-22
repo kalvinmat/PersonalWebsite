@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: black;
+    background: #070606ec;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -103,7 +103,6 @@
     transition: all 0.3s ease;
 }
 
-
 @media screen and (max-width: 960px) {
     .navbar_container {
         display: flex;
@@ -125,11 +124,11 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: black;
+        background: #141414;
     }
 
     .navbar_menu.active {
-        background: black;
+        background: #141414;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -195,3 +194,525 @@
     }
 }
 
+/* Page Title */
+.main {
+    background: #141414;
+}
+
+.main_container {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+}
+
+.main_content {
+    background-color: #a50b77;
+    background-image: linear-gradient(to top, 
+    #a50b77 0%, 
+    #c40d8d 0%,
+    #e537ba 21%,
+    #e537d9 52%,
+    #c66afb 78%,
+    #845fc5 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/* Work Experience CSS */
+.work-experience {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.work-experience h1 {
+    background-color: #4a0df4;
+    background-image: linear-gradient(to bottom, 
+    #8d1dee 0%, 
+    #441aae 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #cfa2f6 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.work-experience-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-experience-card {
+    margin: 1rem;
+    height: 550px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to top, 
+        rgba(5, 5, 6, 0.385) 10%,
+        rgba(9, 8, 8, 0.945) 100%
+    ),
+    url('/images/01_thearqive_color_logos_highres.png');
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+}
+
+.work-experience-card:nth-child(2) {
+    background-image: linear-gradient(
+     to top,
+     rgba(27, 149, 242, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/northrop-grumman-logo.png'); 
+}
+
+.work-experience-card:nth-child(3) {
+    background-image: linear-gradient(
+     to top,
+     rgba(27, 67, 242, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/nasa-2-logo-png-transparent.png'); 
+}
+
+.work-experience-card:nth-child(4) {
+    background-image: linear-gradient(
+     to top,
+     rgba(183, 79, 98, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/verizon-red-icon-black.png'); 
+}
+
+.work-experience-card:nth-child(5) {
+    background-image: linear-gradient(
+     to top,
+     rgba(110, 196, 17, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/amazon_style.jpg'); 
+}
+
+.work-experience-card h2 {
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    left: 30px;
+    background-color: #6f20c4;
+    background-image: linear-gradient(to left, 
+    #8d1dee 0%, 
+    #a71dda 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #450e75 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+
+.work-experience-card h3 {
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+    left: 30px;
+    text-decoration: wavy;
+}
+
+.work-experience-card p {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.work-experience-card ul {
+    position: absolute;
+    list-style-type: georgian;
+    top: 250px;
+    left: 30px; 
+    margin-right: 20px;
+}
+
+.work-experience-card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+/* Project Experience CSS */
+.project-experience {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.project-experience h1 {
+    background-color: #4a0df4;
+    background-image: linear-gradient(to bottom, 
+    #8d1dee 0%, 
+    #441aae 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #cfa2f6 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.project-experience-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-experience-card {
+    margin: 1rem;
+    height: 550px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to top, 
+        rgba(34, 222, 169, 0.385) 10%,
+        rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+    url('/images/gmis.jpg');
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+}
+
+.project-experience-card:nth-child(2) {
+    background-image: linear-gradient(
+     to top,
+     rgba(93, 158, 207, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/web_dev.png'); 
+}
+
+.project-experience-card:nth-child(3) {
+    background-image: linear-gradient(
+     to top,
+     rgba(38, 110, 16, 0.385) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/snake_games.png'); 
+}
+
+
+.project-experience-card h2 {
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    left: 30px;
+    background-color: #6f20c4;
+    background-image: linear-gradient(to left, 
+    #8d1dee 0%, 
+    #a71dda 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #450e75 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.project-experience-card h3 {
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+    left: 30px;
+    text-decoration: wavy;
+}
+
+.project-experience-card p {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.project-experience-card ul {
+    position: absolute;
+    list-style-type: georgian;
+    top: 250px;
+    left: 30px; 
+    margin-right: 20px;
+}
+
+.project-experience-card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+/* Leaderhsip Experience CSS */
+.leadership-experience {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.leadership-experience h1 {
+    background-color: #4a0df4;
+    background-image: linear-gradient(to bottom, 
+    #8d1dee 0%, 
+    #441aae 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #cfa2f6 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.leadership-experience-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.leadership-experience-card {
+    margin: 1rem;
+    height: 550px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to top, 
+        rgba(5, 5, 6, 0.385) 10%,
+        rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+    url('/images/acm_logo.png');
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+}
+
+.leadership-experience-card:nth-child(2) {
+    background-image: linear-gradient(
+     to top,
+     rgba(17, 17, 17, 0.88) 10%,
+     rgba(17, 17, 17, 0.88) 50%,
+     rgba(17, 17, 17, 0.88) 100%
+    ),
+     url('/images/acm_fall_2019.jpg'); 
+}
+
+.leadership-experience-card h2 {
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    left: 30px;
+    background-color: #6f20c4;
+    background-image: linear-gradient(to left, 
+    #8d1dee 0%, 
+    #a71dda 0%,
+    #411ade 21%,
+    #4937e7 52%,
+    #ca81fb 78%,
+    #450e75 100%
+    );
+    background-size: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.leadership-experience-card h3 {
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+    left: 30px;
+    text-decoration: wavy;
+}
+
+.leadership-experience-card p {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.leadership-experience-card ul {
+    position: absolute;
+    list-style-type: georgian;
+    top: 250px;
+    left: 30px; 
+    margin-right: 20px;
+}
+
+.leadership-experience-card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+
+
+/* Footer CSS */
+
+.footer_container {
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_logo {
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link--wrapper {
+    display: flex;
+}
+
+.footer_link--items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.footer_link--items h2 {
+    margin-bottom: 16px;
+}
+
+.footer_link--items > h2 {
+    color: antiquewhite;
+}
+
+.footer_link--items a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer_link--items a:hover {
+    color: aliceblue;
+    transition: 0.3s ease-out;
+}
+
+/* social section footer*/
+
+.social_media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social_media--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+
+.website_right {
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 820px) {
+    .footer_links {
+        padding-top: 2rem;
+    }
+
+    #footer_logo {
+        margin-bottom: 2rem;
+    }
+
+    .website_right {
+        margin-bottom: 2rem;
+    }
+
+    .footer_link--wrapper {
+        flex-direction: column;
+    }
+
+    .social_media--wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer_link--items {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+}
