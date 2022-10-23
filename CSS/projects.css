@@ -226,6 +226,34 @@
     -moz-text-fill-color: transparent;
 }
 
+/* Mobile response */
+@media screen and (max-width: 768px) {
+    .main_container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main_content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main_content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .main_content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
 /* Work Experience CSS */
 .work-experience {
     background: #141414;
@@ -239,9 +267,9 @@
     background-color: #4a0df4;
     background-image: linear-gradient(to bottom, 
     #8d1dee 0%, 
-    #441aae 0%,
-    #411ade 21%,
-    #4937e7 52%,
+    #7243ea 0%,
+    #937af4 21%,
+    #6f61e9 52%,
     #ca81fb 78%,
     #cfa2f6 100%
     );
@@ -264,7 +292,7 @@
     margin: 1rem;
     height: 550px;
     width: 550px;
-    border-radius: 4px;
+    border-radius: 10%;
     background-image: linear-gradient(
         to top, 
         rgba(5, 5, 6, 0.385) 10%,
@@ -382,9 +410,9 @@
     background-color: #4a0df4;
     background-image: linear-gradient(to bottom, 
     #8d1dee 0%, 
-    #441aae 0%,
-    #411ade 21%,
-    #4937e7 52%,
+    #7243ea 0%,
+    #937af4 21%,
+    #6f61e9 52%,
     #ca81fb 78%,
     #cfa2f6 100%
     );
@@ -407,12 +435,11 @@
     margin: 1rem;
     height: 550px;
     width: 550px;
-    border-radius: 4px;
-    background-image: linear-gradient(
-        to top, 
-        rgba(34, 222, 169, 0.385) 10%,
-        rgba(17, 17, 17, 0.88) 50%,
-     rgba(17, 17, 17, 0.88) 100%
+    border-radius: 10%;
+    background-image: linear-gradient(to top, 
+    rgba(34, 222, 169, 0.385) 10%,
+    rgba(17, 17, 17, 0.88) 50%,
+    rgba(17, 17, 17, 0.88) 100%
     ),
     url('/images/gmis.jpg');
     background-size: cover;
@@ -505,9 +532,9 @@
     background-color: #4a0df4;
     background-image: linear-gradient(to bottom, 
     #8d1dee 0%, 
-    #441aae 0%,
-    #411ade 21%,
-    #4937e7 52%,
+    #7243ea 0%,
+    #937af4 21%,
+    #6f61e9 52%,
     #ca81fb 78%,
     #cfa2f6 100%
     );
@@ -530,7 +557,7 @@
     margin: 1rem;
     height: 550px;
     width: 550px;
-    border-radius: 4px;
+    border-radius: 10%;
     background-image: linear-gradient(
         to top, 
         rgba(5, 5, 6, 0.385) 10%,
